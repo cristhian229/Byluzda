@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Italiana&display=swap");
 
 :root {
-  --fondo-oscuro-claro: #472E29;
+  --fondo-oscuro-claro: #472e29;
 }
 
 * {
@@ -14,7 +14,6 @@
   font-style: normal;
 }
 
-
 .nav {
   display: flex;
   flex-direction: row;
@@ -23,7 +22,6 @@
   color: #ffffff;
   background-color: transparent;
   border-bottom: solid 1px #ffffff;
-
 }
 .nav h1 {
   font-size: 64px;
@@ -35,14 +33,14 @@
   flex-direction: row;
   gap: 20px;
   list-style: none;
-  color: #ffffff ;
+  color: #ffffff;
   font-size: 24px;
 }
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
-header{
+header {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/23/17/56/wedding-1854074_1280.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -70,13 +68,91 @@ header{
 .portada button {
   font-size: 32px;
   cursor: pointer;
-  background-color:  #7e6c69;
-  
+  background-color: #7e6c69;
 }
 .opacidad {
   width: auto;
   height: 100vh;
   background-color: black;
-  opacity: 0.65;
+  opacity: 0.5;
   z-index: -10;
+}
+.acerca {
+  padding: 12rem 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acerca-art {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.acerca-art h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+.acerca-art p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.acerca-art img {
+  width: 400px;
+  height: auto;
+  border-radius: 3px;
+}
+.acerca-art button {
+  padding: 16px 42px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  background-color: var(--fondo-oscuro-claro);
+  cursor: pointer;
+  font-size: 22px;
+}
+.acerca-text {
+  gap: 15px;
+}
+.frase {
+  padding: 5rem 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--fondo-oscuro-claro);
+  color: #ffffff;
+  font-family: "Italiana", sans-serif;
+  font-size: 42px;
+}
+.portafolio {
+  padding: 10rem 12rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.portafolio-art {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28%;
+  height: 500px;
+  font-size: 24px;
+}
+.portafolio-art img{
+  width: 100%;
+  height: 350px;
+  border-radius: 3px;
+}
+.arriba{
+  position: relative;
+  bottom: 120px;
+}
+.abajo {
+  position: relative;
+  top: 120px;
 }

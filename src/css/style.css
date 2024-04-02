@@ -1,11 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Italiana&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Italiana&display=swap");
+
+:root {
+  --fondo-oscuro-claro: #472E29;
+}
 
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Abhaya Libre", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: solid 1px #ffffff;
+
+}
+.nav h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  color: #ffffff ;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+header{
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/23/17/56/wedding-1854074_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+}
+.portada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+.portada h2 {
+  font-size: 72px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.portada p {
+  font-size: 32px;
+  color: #ffffff;
+}
+.portada button {
+  font-size: 32px;
+  cursor: pointer;
+  background-color:  #7e6c69;
+  
+}
+.opacidad {
+  width: auto;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.65;
+  z-index: -10;
+}

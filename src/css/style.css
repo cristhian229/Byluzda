@@ -12,9 +12,10 @@
   font-family: "Abhaya Libre", serif;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
 }
-body{
-  background-color: #faf0e6
+body {
+  background-color: #faf0e6;
 }
 
 .nav {
@@ -31,9 +32,9 @@ body{
   font-size: 64px;
   font-weight: 500;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   transition: ease-in-out;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 .lista {
   display: flex;
@@ -48,7 +49,8 @@ a {
   color: #ffffff;
 }
 header {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.482), rgba(5,7,12,0.75)),url(https://cdn.pixabay.com/photo/2016/11/23/17/56/wedding-1854074_1280.jpg);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.482), rgba(5, 7, 12, 0.75)),
+    url(https://cdn.pixabay.com/photo/2016/11/23/17/56/wedding-1854074_1280.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -133,10 +135,10 @@ header {
   border-color: #ffffff;
 }
 
-.servicios{
+.servicios {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 }
 .semicirculo {
   width: 100%;
@@ -153,27 +155,26 @@ align-items: center;
   gap: 10px;
   text-align: center;
 }
-.semicirculo h2{
+.semicirculo h2 {
   font-size: 40px;
 }
-.semicirculo p{
+.semicirculo p {
   font-size: 32px;
 }
-.cumplido{
+.cumplido {
   padding: 55px;
   font-size: 55px;
   text-align: center;
   color: var(--fondo-oscuro-claro);
 }
-.numeros{
+.numeros {
   font-family: "Italiana", sans-serif;
   font-size: 100px;
-  color: #AEAEAE;
+  color: #aeaeae;
   font-style: italic;
   width: 40%;
-
 }
-.servicios-div{
+.servicios-div {
   display: flex;
   flex-direction: row;
   padding: 7rem 10rem;
@@ -181,12 +182,12 @@ align-items: center;
   justify-content: center;
   align-items: center;
   height: 45rem;
-
 }
 .servicios-imagenes {
-  background-image:linear-gradient(rgba(5, 7, 12, 0.482), rgba(5,7,12,0.75)),url(https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: linear-gradient(rgba(5, 7, 12, 0.482), rgba(5, 7, 12, 0.75)),
+    url(https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover;
   background-position: center;
   text-align: center;
   display: flex;
@@ -200,7 +201,7 @@ align-items: center;
   height: 100%;
 }
 
-.reverso{
+.reverso {
   flex-direction: row-reverse;
 }
 .portafolio {
@@ -222,12 +223,12 @@ align-items: center;
   height: 500px;
   font-size: 24px;
 }
-.portafolio-art img{
+.portafolio-art img {
   width: 100%;
   height: 350px;
   border-radius: 3px;
 }
-.arriba{
+.arriba {
   position: relative;
   bottom: 120px;
 }
@@ -244,7 +245,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
-.portafolio h2{
+.portafolio h2 {
   font-size: 50px;
   position: relative;
   bottom: 110px;
@@ -265,7 +266,6 @@ align-items: center;
   background-color: var(--fondo-oscuro-claro);
   width: 75%;
   height: 300px;
-
 }
 .contenedor-contacto h2 {
   font-size: 60px;
@@ -279,10 +279,11 @@ align-items: center;
   padding: 15px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
   width: 500px;
-  height: 450px;
+  height: 455px;
   position: relative;
 }
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   outline: none;
   background: #110303ce;
@@ -291,4 +292,23 @@ form input, form textarea{
   color: #ffffff;
   font-size: 18px;
   border-radius: 15px;
+}
+.form button {
+  color: white;
+  border: none;
+  width: 20%;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #110303ce;
+  cursor: pointer;
+  border-radius: 15px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  font-size: larger;
+  height: 8vh;
 }

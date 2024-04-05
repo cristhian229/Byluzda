@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Italiana&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root {
   --fondo-oscuro-claro: #472e29;
@@ -253,9 +254,13 @@ header {
 .contacto {
   padding: 15rem 12rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.contacto iframe {
+  margin-bottom: 250px;
+  border: solid 1px black;
 }
 .contenedor-contacto {
   display: flex;
@@ -306,9 +311,10 @@ form textarea {
 }
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: pink;
-  font-size: larger;
+  font-size: 24px;
   height: 8vh;
 }
+
